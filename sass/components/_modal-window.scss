@@ -1,0 +1,75 @@
+/* -------------  модальное окно  ----------------- */
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 528px;
+    height: 581px;
+    padding: 40px;
+    background-color: var(--secondary-color-w);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+
+/* -------------  кнопка  ---------------------------- */
+.modal-close-btn {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 8px;
+    right: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--secondary-color-w);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    padding: 0;
+
+    &:hover .icon-close {
+            color: var(--accent-color);
+        }
+}
+
+
+
+.icon-close {
+    fill: currentColor;
+    transition: transform var(--transition-dur-and-func);
+
+}
+
+
+.backdrop.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+}
+
+/* //////////////////////////////////////////// */
+.contact-form-input {
+    width: 100%;
+    height: 15px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+
+}
+
+.contact-form-btn {
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.contact-form-message {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    resize: none;
+}

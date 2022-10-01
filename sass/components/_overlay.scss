@@ -1,0 +1,29 @@
+.portfolio-overlay-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(33, 150, 243, 0.9);
+    color: var(--secondary-color-w);
+    /* font-weight: 400; */
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+    overflow: auto;
+    padding: 63px 24px;
+    transform: translateY(100%);
+    transition: transform var(--transition-dur-and-func);
+
+
+}
+
+.item-link:hover .overlay,
+.item-link:focus .overlay {
+    transform: translateY(0%);
+}

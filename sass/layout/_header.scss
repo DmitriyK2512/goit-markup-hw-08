@@ -1,0 +1,24 @@
+.header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ECECEC;
+}
+.div-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigaition {
+    display: flex;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+.header-list {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}

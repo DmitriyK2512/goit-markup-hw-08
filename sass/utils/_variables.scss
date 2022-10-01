@@ -1,0 +1,18 @@
+:root {
+    /* палитра цветов */
+    --primary-color: #212121;
+    --secondary-color: #757575;
+    --secondary-color-w: #FFFFFF;
+    --additional-color: rgba(255, 255, 255, 0.6);
+    --accent-color: #2196F3;
+    /* текст */
+    --primary-font-family: 'Roboto', sans-serif;
+    --secondary-font-family: 'Raleway', sans-serif;
+    /* фон */
+    --primary-background-color: #ffffff;
+    --secondary-background-color-lige: rgba(47, 48, 58, 0.4);
+    --secondary-background-color-dark: #2F303A;
+    --accent-background-color: #AFB1B8;
+    /* время переходов */
+    --transition-dur-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

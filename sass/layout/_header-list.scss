@@ -1,0 +1,15 @@
+
+.menu__list {
+    position: relative;
+}
+.mailto,
+.contact-phone-number {
+    display: flex;
+    align-items: center;
+}
+
+.mailto__icon,
+.contact-phone-number__icon {
+    margin-right: 10px;
+    fill: currentColor;
+}

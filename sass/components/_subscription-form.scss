@@ -1,0 +1,43 @@
+.footer-modal-form {
+    width: 570px;
+}
+
+.footer-modal-div {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 12px;
+
+
+}
+
+.footer-modal-button {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    width: 200px;
+    padding-left: 28px;
+    padding-right: 28px;
+
+}
+
+.footer-modal-form-field {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    width: 358px;
+    height: 50px;
+    padding-left: 16px;
+    color: var(--secondary-color-w);
+    background-color: var(--secondary-background-color-dark);
+
+    &::placeholder {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.25;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.03em;
+            color: rgba(255, 255, 255, 0.6);
+        }
+}
+

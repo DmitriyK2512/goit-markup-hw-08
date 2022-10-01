@@ -1,0 +1,75 @@
+.footer {
+    padding: 60px 0;
+    background-color: var(--secondary-background-color-dark);
+}
+.address {
+    font-style: normal;
+}
+.footer-link-text {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.address-link {
+    color: var(--secondary-color-w);
+
+}
+
+/* ---------------------------------------------- */
+
+.footer-title-text {
+    color: var(--secondary-color-w);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    margin-bottom: 20px;
+}
+
+/* ============================= */
+.footer-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: baseline;
+}
+
+.footer-address-div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.address-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 9px;
+
+}
+
+.footer-icon-list {
+    display: flex;
+    column-gap: 10px;
+}
+
+.footer-icon {
+    fill: var(--secondary-color-w);
+}
+
+.footer-icon-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color var(--transition-dur-and-func);
+
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+    
+        }
+}
+
